@@ -12,3 +12,29 @@
     --space-sm:8px;
     --space-md:16px;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60px;
+}
+.navbar--links{
+    display: flex;
+    gap: 20px;
+}
+.navbar--links li{
+    list-style: none;
+}
+.navbar--links a{
+    color: #111827;
+    text-decoration: none;
+    transition: color 0.3s ease, border-color 0.3s ease; 
+    border-bottom: 2px solid transparent;
+}
+.navbar--links a:hover{
+    color: #3b82f6;
+    border-bottom-color: #3b82f6;
+}
