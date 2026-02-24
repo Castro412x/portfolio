@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primary: #3b82f6;
+    --color-border: #e5e7eb;
+    --font-main: 'Poppins', san-serif;
+    --font-secondary: 'inter', san-seriff;
+    --space-xs:4px;
+    --space-sm:8px;
+    --space-md:16px;
+}
